@@ -17,7 +17,7 @@ public class Stepdefs {
     private String today;
     private String actualAnswer;
 
-    @Given("today is {string}")
+    @Given("today is (\\\\s+)$")
     public void today_is(String today) {
         //this.today = today;
     	this.today = "Friday";
@@ -28,7 +28,7 @@ public class Stepdefs {
         actualAnswer = IsItFriday.isItFriday(today);
     }
 
-    @Then("I should be told {string}")
+    @Then("I should be told TGIF")
     public void i_should_be_told(String expectedAnswer) {
         assertEquals("TGIF", actualAnswer);
     }
