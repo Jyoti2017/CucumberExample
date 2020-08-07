@@ -14,4 +14,9 @@ Feature: Is it Friday yet?
   Scenario Outline: Today is or is not Friday 
     Given today is "anything else!"           
     When I ask whether it is Friday yet      
-    Then I should be told "Nope"              
+    Then I should be told "Nope"      
+    
+  Scenario Outline: Today is or is not Friday 
+    Given today is "Sunday"           
+    When I ask whether it is Friday yet      
+    Then I should be told "TGIF"                
