@@ -4,4 +4,4 @@ Feature: Is it Friday yet?
   Scenario: Sunday isn't Friday
     When I ask whether it's Friday yet
     Then I should be told "Nope"
-    Given today is Friday
+ 

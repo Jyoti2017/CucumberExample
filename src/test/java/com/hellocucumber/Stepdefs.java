@@ -27,8 +27,8 @@ public class Stepdefs {
         assertEquals(expectedAnswer, actualAnswer);
     }
     
-    @Given("today is {string}")
+    /*@Given("today is {string}")
     public void today_is(String today) {
         this.today = today;
-    }   
+    } */  
 }
