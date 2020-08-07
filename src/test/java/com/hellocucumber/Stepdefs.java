@@ -23,8 +23,8 @@ public class Stepdefs {
     	this.today = "Friday";
     }
 
-    @When("I ask whether it's Friday yet")
-    public void i_ask_whether_it_s_Friday_yet() {
+    @When("I ask whether it is Friday yet")
+    public void i_ask_whether_it_is_Friday_yet() {
         actualAnswer = IsItFriday.isItFriday(today);
     }
 
