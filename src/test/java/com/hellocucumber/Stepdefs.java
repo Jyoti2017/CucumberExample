@@ -17,7 +17,7 @@ public class Stepdefs {
     private String today;
     private String actualAnswer;
 
-    @Given("today is (\\\\s+)$")
+    @Given("today is Friday")
     public void today_is(String today) {
         //this.today = today;
     	this.today = "Friday";
