@@ -17,7 +17,7 @@ public class Stepdefs {
     private String actualAnswer;
 
     @Given("today is {string}")
-    public void today_is_stepdefs_today_is_string(String today) {
+    public void today_is(String today) {
         this.today = today;
     }
 
