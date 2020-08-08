@@ -7,7 +7,6 @@ import static org.junit.Assert.*;
 
 class IsItFriday {
     static String isItFriday(String today) {
-    	System.out.println("Today is "+today);
         return "Friday".equals(today) ? "TGIF" : "Nope";
     }
 }
