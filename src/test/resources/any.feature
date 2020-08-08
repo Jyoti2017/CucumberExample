@@ -19,4 +19,4 @@ Feature: Is it Friday yet?
   Scenario Outline: Today is or is not Friday 
     Given today is "Sunday"           
     When I ask whether it is Friday yet      
-    Then I should be told "TGIF"                
+    Then I should be told "TGIF"              
